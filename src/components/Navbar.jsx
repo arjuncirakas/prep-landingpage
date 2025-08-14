@@ -150,6 +150,7 @@ const Navbar = () => {
               transition={{ duration: 0.3 }}
               className="fixed inset-0 bg-black/60 backdrop-blur-sm z-40 lg:hidden"
               onClick={toggleMenu}
+              style={{ minHeight: '100vh' }}
             />
 
             {/* Mobile Menu - Top Slide */}
@@ -163,7 +164,7 @@ const Navbar = () => {
                 stiffness: 200,
                 opacity: { duration: 0.2 }
               }}
-              className="fixed top-0 left-0 right-0 bg-white z-50 lg:hidden shadow-2xl rounded-b-2xl sm:rounded-b-3xl border-b border-gray-100"
+              className="fixed top-0 left-0 right-0 max-h-[90vh] bg-white z-50 lg:hidden shadow-2xl rounded-b-2xl sm:rounded-b-3xl border-b border-gray-100 overflow-y-auto"
             >
               {/* Close Button */}
               <motion.button
@@ -178,9 +179,9 @@ const Navbar = () => {
                 <IoClose className="w-4 h-4 text-gray-600" />
               </motion.button>
               
-              <div className="px-4 sm:px-6 pt-20 sm:pt-24 pb-6 sm:pb-8">
+              <div className="px-4 sm:px-6 pt-20 sm:pt-24 pb-6 sm:pb-8 min-h-0 flex flex-col">
                 {/* Navigation Links */}
-                <div className="space-y-1">
+                <div className="space-y-1 flex-1">
                   {navItems.map((item, index) => (
                     <motion.a
                       key={item.name}
@@ -229,7 +230,7 @@ const Navbar = () => {
                   transition={{ delay: 0.8 }}
                 >
                   <p className="text-xs sm:text-sm text-gray-500 text-center">
-                    © 2024 PrepUrology. All rights reserved.
+                    © 2025 PrepUrology. All rights reserved.
                   </p>
                 </motion.div>
               </div>
