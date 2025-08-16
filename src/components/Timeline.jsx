@@ -60,13 +60,13 @@ const Timelinesec = () => {
   }, []);
 
   return (
-    <div className="w-[90%] mx-auto bg-white" ref={timelineRef}>
+    <div className="w-[75%] mx-auto bg-white mt-10 sm:mt-20" ref={timelineRef}>
       {/* Title Section with animation */}
       <div className="text-center mb-8 sm:mb-12 lg:mb-16 animate-fade-in">
-        <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-[#4A9B8E] mb-3 sm:mb-4 animate-slide-up">
+        <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-[#4A9B8E] mb-3 sm:mb-4 animate-slide-up">
           The Fragmentation in Urology Care
         </h1>
-        <p className="text-base sm:text-lg md:text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed px-4 animate-slide-up-delay">
+        <p className="text-base sm:text-lg text-gray-700 mb-6 sm:mb-8 max-w-3xl mx-auto px-4 animate-slide-up-delay">
           Navigating the current healthcare landscape presents significant challenges for patients and providers alike. PREP is designed to solve these universal problems.
         </p>
       </div>
