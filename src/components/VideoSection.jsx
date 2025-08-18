@@ -41,7 +41,7 @@ const VideoSection = () => {
   };
 
   return (
-    <section className="py-8 sm:py-12 md:py-16 lg:py-20 xl:py-24 bg-gradient-to-br from-gray-50 to-white">
+    <section className="py-8 sm:py-12 md:py-16 lg:py-10 bg-gradient-to-br from-gray-50 to-white">
       <div className="max-w-7xl mx-auto px-3 sm:px-4 md:px-6 lg:px-8">
         
         {/* Header Section */}
@@ -52,7 +52,7 @@ const VideoSection = () => {
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
         >
-          <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-[#4A9B8E] mb-4 sm:mb-6 px-2">
+          <h2 className="text-[1.5rem] sm:text-2xl md:text-3xl lg:text-4xl font-bold text-[#4A9B8E] mb-4 sm:mb-6 px-2">
             See PREP in Action
           </h2>
           <p className="text-base sm:text-lg text-gray-600 max-w-3xl mx-auto leading-relaxed">

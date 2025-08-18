@@ -168,7 +168,7 @@ const Platform = () => {
       <div className="max-w-6xl mx-auto">
         {/* Top Section */}
         <div className="text-center mb-8 sm:mb-12 md:mb-16">
-          <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-[#4A9B8E] mb-3 sm:mb-4 px-2">
+          <h1 className="text-[1.5rem] sm:text-2xl md:text-3xl lg:text-4xl font-bold text-[#4A9B8E] mb-3 sm:mb-4 px-2">
           The PREP Solution : A Unified Patient Journey
           </h1>
           <p className="text-base sm:text-lg text-gray-700 mb-6 sm:mb-8 max-w-3xl mx-auto px-4">

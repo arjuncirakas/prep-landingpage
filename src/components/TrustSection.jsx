@@ -14,7 +14,7 @@ const TrustSection = () => {
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
         >
-          <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-[#4A9B8E] mb-6">
+          <h2 className="text-[1.5rem] sm:text-2xl md:text-3xl lg:text-4xl font-bold text-[#4A9B8E] mb-6">
             Trust and Security by Design
           </h2>
           <p className="text-base sm:text-lg text-gray-600 max-w-3xl mx-auto leading-relaxed">

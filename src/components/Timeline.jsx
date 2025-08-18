@@ -63,7 +63,7 @@ const Timelinesec = () => {
     <div className="w-[90%] sm:w-[75%] mx-auto bg-white mt-10 sm:mt-20" ref={timelineRef}>
       {/* Title Section with animation */}
       <div className="text-center mb-8 sm:mb-12 lg:mb-16 animate-fade-in">
-        <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-[#4A9B8E] mb-3 sm:mb-4 animate-slide-up">
+        <h1 className="text-[1.5rem] sm:text-2xl md:text-3xl lg:text-4xl font-bold text-[#4A9B8E] mb-3 sm:mb-4 animate-slide-up">
           The Fragmentation in Urology Care
         </h1>
         <p className="text-base sm:text-lg text-gray-700 mb-6 sm:mb-8 max-w-3xl mx-auto px-4 animate-slide-up-delay">

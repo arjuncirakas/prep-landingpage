@@ -85,7 +85,7 @@ const Importance = () => {
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
         >
-          <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-[#4A9B8E] mb-3 sm:mb-4">
+          <h2 className="text-[1.5rem] sm:text-2xl md:text-3xl lg:text-4xl font-bold text-[#4A9B8E] mb-3 sm:mb-4">
             The Importance of Urology Care
           </h2>
           <p className="text-gray-600 text-base sm:text-lg max-w-4xl mx-auto leading-relaxed">
