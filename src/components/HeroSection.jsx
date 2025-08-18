@@ -5,7 +5,7 @@ import Navbar from './Navbar';
 
 const HeroSection = () => {
   return (
-    <section className="relative min-h-screen bg-cover bg-center bg-no-repeat overflow-hidden" style={{ backgroundImage: 'url(/bg-image.png)' }}>
+    <section className="relative min0 md:min-h-screen bg-cover bg-center bg-no-repeat overflow-hidden" style={{ backgroundImage: 'url(/bg-image.png)' }}>
       
       {/* Background Overlay for better text readability */}
       <div className="absolute inset-0 bg-black/20 z-0"></div>
