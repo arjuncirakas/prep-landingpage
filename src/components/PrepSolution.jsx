@@ -57,11 +57,10 @@ const PrepSolution = () => {
           viewport={{ once: true }}
         >
           <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-[#4A9B8E] mb-3 sm:mb-4 animate-slide-up">
-            The PREP Solution : A Unified Patient Journey
+          What Ideal Urology Care Should Look Like
           </h2>
           <p className="text-gray-600 text-base sm:text-lg max-w-4xl mx-auto">
-            Experience the seamless flow of information and care coordination that PREP brings to urology. 
-            Our three pillars ensure a connected and efficient journey for every patient.
+          A truly effective urology care model integrates prevention, early diagnosis, seamless coordination between providers, and patient-centered support
           </p>
         </motion.div>
 
