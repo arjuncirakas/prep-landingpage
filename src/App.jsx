@@ -11,6 +11,7 @@ import CertificateSection from './components/CertificateSection'
 import TransformComponent from './components/TransformComponent'
 import ConnectUs from './components/ConnectUs'
 import Footer from './components/Footer'
+import Importance from './components/Importance'
 
 const App = () => {
   return (
@@ -21,14 +22,15 @@ const App = () => {
       <section id="timeline">
         <Timeline/>
       </section>
-      <section id="features">
-        <CardSection/>
-      </section>
+      <Importance/>
       <section id="solution">
         <PrepSolution/>
       </section>
       <section id="platform">
         <Platform/>
+      </section>
+      <section id="features">
+        <CardSection/>
       </section>
       <TrustSection/>
       <section id="demo">

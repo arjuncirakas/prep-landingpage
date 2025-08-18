@@ -5,18 +5,18 @@ import Navbar from './Navbar';
 
 const HeroSection = () => {
   return (
-    <section className="relative min0 md:min-h-screen bg-cover bg-center bg-no-repeat overflow-hidden" style={{ backgroundImage: 'url(/bg-image.png)' }}>
+    <section className="relative min-h-screen bg-cover bg-center bg-no-repeat  overflow-hidden" style={{ backgroundImage: 'url(/bg-image.png)' }}>
       
       {/* Background Overlay for better text readability */}
       <div className="absolute inset-0 bg-black/20 z-0"></div>
       
       {/* Navbar - Scrolls with content */}
-      <div className="relative z-10 pt-2 sm:pt-4">
+      <div className="relative z-10 pt-2 sm:pt-4 w-full h-[10vh]">
         <Navbar />
       </div>
       
       {/* Content container */}
-      <div className="relative z-5 flex items-center justify-center min-h-screen">
+      <div className="relative z-5 flex items-center justify-center w-full h-[90vh] flex flex-col justify-center">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
           <div className="text-center w-full py-8 sm:py-12 md:py-16 lg:py-20">
             
@@ -25,7 +25,7 @@ const HeroSection = () => {
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, ease: "easeOut" }}
-              className='text-[4.5rem] text-white font-semibold leading-tight mb-4 sm:mb-6 md:mb-8 lg:mb-10 px-2'
+              className='text-[2.5rem] sm:text-[3.5rem] md:text-[4.5rem] text-white font-semibold leading-tight mb-4 sm:mb-6 md:mb-8 lg:mb-10 px-2'
             >
               Transforming Urology Care,{" "}
               <span className="block sm:inline">
@@ -38,7 +38,7 @@ const HeroSection = () => {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.2, ease: "easeOut" }}
-              className='text-white/90 text-[1.5rem] leading-none max-w-xs xs:max-w-sm sm:max-w-2xl md:max-w-3xl lg:max-w-4xl xl:max-w-5xl mx-auto font-light mb-6 sm:mb-8 md:mb-10 lg:mb-12 px-4'
+              className='text-white/90 text-[1rem] sm:text-[1.5rem] max-w-xs xs:max-w-sm sm:max-w-2xl md:max-w-3xl lg:max-w-4xl xl:max-w-5xl mx-auto font-light mb-6 sm:mb-8 md:mb-10 lg:mb-12 px-4'
             >
               PREP is the groundbreaking Patient Referral and Engagement Platform designed to unify care pathways, enhance collaboration, and deliver superior patient outcomes.
             </motion.p>
