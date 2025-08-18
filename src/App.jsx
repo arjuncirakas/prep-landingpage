@@ -18,11 +18,11 @@ const App = () => {
       <section id="home">
         <HeroSection/>
       </section>
-      <section id="features">
-        <CardSection/>
-      </section>
       <section id="timeline">
         <Timeline/>
+      </section>
+      <section id="features">
+        <CardSection/>
       </section>
       <section id="solution">
         <PrepSolution/>
